@@ -91,3 +91,18 @@ header {
 .header-right a:hover{
   background-color:#e6ffff;
 }
+
+.lesson-wrapper {
+  height: 580px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  backgroundcolor: #f7f7f7;
+  text-align: center;
+}
+
+.sonota p {
+  font-size: 20px;
+  float: right;
+}
+
