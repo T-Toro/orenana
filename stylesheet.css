@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
   
-  body {
+body {
     margin: 0;
     font-family:"Noto Serif JP";
 }
@@ -99,6 +99,11 @@ header {
   padding-right: 5%;
   backgroundcolor: #f7f7f7;
   text-align: center;
+}
+
+.hyoshi {
+  width:510px;
+  height: 296px;
 }
 
 .sonota p {
