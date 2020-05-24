@@ -111,3 +111,27 @@ header {
   float: right;
 }
 
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson icon p {
+  position: absolute;
+  top: 37%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  font-size: 13px;
+  color: #b3aeb5;
+}
+
+.
