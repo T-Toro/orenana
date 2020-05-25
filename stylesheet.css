@@ -176,8 +176,8 @@ footer {
 @media all and (max-width: 1000px) {
   .lesson {
     width: 50%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
   }
   
   .lesson-wrapper {
