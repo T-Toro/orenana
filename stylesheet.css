@@ -134,4 +134,16 @@ header {
   color: #b3aeb5;
 }
 
-.
+.btn massage {
+  padding: 15px 40px;
+  backgroundcolor: #5dca88;
+  cursor: pointer;
+}
+
+.btn massage:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
