@@ -101,6 +101,10 @@ header {
   text-align: center;
 }
 
+.lesson-weapper a {
+  text-align: center;
+}
+
 .hyoshi {
   width:525px;
   height: 740px;
