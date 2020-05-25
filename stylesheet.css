@@ -56,6 +56,10 @@ a {
   opacity:1;
 }
 
+.fa {
+  margin-right: 5px;
+}
+
 header {
   height: 65px;
   width: 100%;  
@@ -134,13 +138,35 @@ header {
 .text-contents {
   width: 80%;
   display: inline-block;
+  magin-top: 15px;
   font-size: 13px;
   color: #b3aeb5;
 }
 
+footer a {
+  align: center;
+}
+
+footer img{
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top:30px;
+  pdding-bottom:20px;
+}
+
 .menu-icon {
   color: #b0c4de;
-  font-size: 12px;
+  float: right;
+  font-size: 25px;
+  padding 21px 0;
+  display: none;
 }
 
 .clear {
@@ -162,6 +188,12 @@ header {
   }
 }
 
+@media all and (max-width: 750px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+}
+
 @media all and (max-width: 670px) {
   .header-right {
     display: none;
@@ -178,6 +210,9 @@ header {
   .top-wrapper {
     text-align: left;
   }
+  
+  top-wrapper h1 {
+    font-size: 24px;
   
   .top-wrapper p {
     font-size: 14px
