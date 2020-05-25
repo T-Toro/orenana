@@ -110,8 +110,8 @@ header {
 }
 
 .hyoshi {
-  width:525px;
-  height: 740px;
+  width:175px;
+  height: 280px;
 }
 
 .sonota p {
@@ -173,10 +173,10 @@ footer {
   clear: left;
 }
 
-@media　all and (max-width: 1000px) {
+@media all and (max-width: 1000px) {
   .lesson {
     width: 50%;
-    margin-bottom: 50px
+    margin-bottom: 50px;
   }
   
   .lesson-wrapper {
@@ -204,7 +204,7 @@ footer {
   }
   
   .top-wrapper .btn {
-    width: 100%
+    width: 100%;
   }
   
   .top-wrapper {
@@ -215,11 +215,11 @@ footer {
     font-size: 24px;
   
   .top-wrapper p {
-    font-size: 14px
+    font-size: 14px;
   }
   
   .lesson {
-    width: 100%
+    width: 100%;
   }
   
   .lesson-wrapper {
@@ -227,6 +227,6 @@ footer {
   }
   
   .massage-wrapper .btn {
-    width: 100%
+    width: 100%;
   }
 }
