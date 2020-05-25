@@ -134,16 +134,60 @@ header {
   color: #b3aeb5;
 }
 
-.btn massage {
-  padding: 15px 40px;
-  backgroundcolor: #5dca88;
-  cursor: pointer;
+.menu-icon {
+  color: #b0c4de;
+  font-size: 12px;
 }
 
-.btn massage:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
+.clear {
+  clear: left;
 }
 
+@media　all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px
+  }
+  
+  .lesson-wrapper {
+    height: 990px;
+  }
+  
+  footer {
+    text-align: center;
+  }
+}
 
+@media all and (max-width: 670px) {
+  .header-right {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: block;
+  }
+  
+  .top-wrapper .btn {
+    width: 100%
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px
+  }
+  
+  .lesson {
+    width: 100%
+  }
+  
+  .lesson-wrapper {
+    width: 1700px;
+  }
+  
+  .massage-wrapper .btn {
+    width: 100%
+  }
+}
