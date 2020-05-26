@@ -220,6 +220,10 @@ footer {
     font-size: 14px;
   }
   
+  .hyoshi {
+    width: 170px;
+    height: auto;
+  
   .lesson {
     width: 100%;
   }
