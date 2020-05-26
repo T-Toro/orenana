@@ -175,7 +175,7 @@ footer {
 
 @media all and (max-width: 1000px) {
   .lesson {
-    width: 50%;
+    width: 80%;
     margin-top: 30px;
     margin-bottom: 30px;
   }
@@ -221,7 +221,7 @@ footer {
   }
   
   .hyoshi {
-    width: 170px;
+    width: 100%;
     height: auto;
   }
   
