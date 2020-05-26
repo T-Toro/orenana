@@ -60,10 +60,6 @@ a {
   margin-right: 5px;
 }
 
-.fa-navicon:before, .fa-reorder:before, .fa-bars:before {
-  content: "\f0c9";
-}
-
 header {
   height: 65px;
   width: 100%;  
