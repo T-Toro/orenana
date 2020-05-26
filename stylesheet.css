@@ -175,14 +175,19 @@ footer {
   display: none;
 }
 
-.sab-menu > ul {
+.sub-menu {
+  background: #b9b9b9;
+  position: relative;
+}
+
+.sub-menu > ul {
   list-style: none;
   margin: 0;
   padding: 0;
   width: 300px;
 }
 
-.sab-menu > ul > li > a {
+.sub-menu > ul > li > a {
   text-decoration: none;
   color: #ffffff;
 }
