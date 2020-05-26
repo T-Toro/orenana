@@ -92,13 +92,17 @@
     <p>2020-2020 orenana</p>
   </div>
 </footer>
-<script>jQuery('.fa fa-bars menu-icon').on('click', function() {
-  if(jQuery('.menu-container .menu').css('display') === 'block') {
+<script>
+  jQuery(function(){
+    jQuery('.fa fa-bars menu-icon').on('click', function() {
+    if(jQuery('.menu-container .menu').css('display') === 'block') {
     jQuery('.menu-container .menu').slideUp('1500');
-  }else {
+    }else {
     jQuery('.menu-container .menu').slideDown('1500');
-  }
-});</script>
+    }
+    });
+  });
+</script>
 <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 </body>
 </html>
