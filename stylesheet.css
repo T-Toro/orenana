@@ -53,7 +53,7 @@ a {
 }
   
 .btn:hover {
-  opacity:1;
+  opacity: 1;
 }
 
 .fa {
@@ -86,14 +86,14 @@ header {
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
-  color:black;
+  color: black;
   display: block;
   float: left;
   transition: all 0.5s;
 }
   
 .header-right a:hover{
-  background-color:#e6ffff;
+  background-color: #e6ffff;
 }
 
 .lesson-wrapper {
@@ -157,8 +157,8 @@ footer p {
 }
 
 footer {
-  padding-top:30px;
-  pdding-bottom:20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .menu-icon {
