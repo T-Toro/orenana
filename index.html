@@ -92,9 +92,14 @@
     <p>2020-2020 orenana</p>
   </div>
 </footer>
-
+<script>jQuery('.icon-hamburger').on('click', function() {
+  if(jQuery('.menu-container .menu').css('display') === 'block') {
+    jQuery('.menu-container .menu').slideUp('1500');
+  }else {
+    jQuery('.menu-container .menu').slideDown('1500');
+  }
+});</script>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-
 </body>
 </html>
                                                  
