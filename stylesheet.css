@@ -201,6 +201,10 @@ footer {
     display: none;
   }
   
+  .menu-icon {
+    display: block;
+  }
+  
   .top-wrapper .btn {
     width: 100%;
   }
@@ -214,7 +218,7 @@ footer {
   }
   
   .top-wrapper p {
-    font-size: 14px;
+    font-size: 12px;
   }
   
   .hyoshi {
