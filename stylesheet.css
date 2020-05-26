@@ -161,7 +161,13 @@ footer {
   padding-bottom: 20px;
 }
 
-.menu-icon {
+.menu {
+  display: flex;
+  width: 300px;
+  text-align: center;
+}
+
+.fa {
   color: #b0c4de;
   float: right;
   font-size: 25px;
@@ -169,6 +175,17 @@ footer {
   display: none;
 }
 
+.sab-menu > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 300px;
+}
+
+.sab-menu > ul > li > a {
+  text-decoration: none;
+  color: #ffffff;
+}
 .clear {
   clear: left;
 }
