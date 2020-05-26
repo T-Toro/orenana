@@ -2,6 +2,18 @@
 <html　lang="ja">
 <head>
   <meta charset="utf-8">
+  <script>
+  jQuery(function(){
+    jQuery('.fa fa-bars menu-icon').on('click', function() {
+    if(jQuery('.menu-container .menu').css('display') === 'block') {
+    jQuery('.menu-container .menu').slideUp('1500');
+    }else {
+    jQuery('.menu-container .menu').slideDown('1500');
+    }
+    });
+  });
+</script>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
   <meta name="viewport" content="width=device-width", initial-scale=1.0">
   <title>俺と7人の高校の過ごし方</title>
    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
@@ -80,9 +92,7 @@
 </div>
 <div class="sonota">
         <img class="hyoshi" src="hyoshi.jpg">
-        <p class="text-contents">努雲文庫出版<br>
-                                0+税 円<br>
-                                2020年8月発売予定</p>
+        <p class="text-contents">努雲文庫出版<br>0+税 円<br>2020年8月発売予定</p>
 </div>
 <footer>
   <div class="container">
@@ -92,18 +102,7 @@
     <p>2020-2020 orenana</p>
   </div>
 </footer>
-<script>
-  jQuery(function(){
-    jQuery('.fa fa-bars menu-icon').on('click', function() {
-    if(jQuery('.menu-container .menu').css('display') === 'block') {
-    jQuery('.menu-container .menu').slideUp('1500');
-    }else {
-    jQuery('.menu-container .menu').slideDown('1500');
-    }
-    });
-  });
-</script>
-<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
 </body>
 </html>
                                                  
