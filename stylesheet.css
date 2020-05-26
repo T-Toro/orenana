@@ -60,42 +60,6 @@ a {
   margin-right: 5px;
 }
 
-.menu-container {
-  margin: 0;
-  position: relative;
-}
-
-.menu-container .menu {
-  border: 1px solid #ccc;
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.menu-container .menu .menu-item {
-  flex: 1;
-}
-
-.menu-container .menu .menu-item a {
-  background: #fff;
-  border-right: 1px solid #ccc;
-  color: #333;
-  display: block;
-  padding: 0.6em 0.4em;
-  text-align: center;
-  text-decoration: none;
-}
-
-.menu-container .menu .menu-item a:hover {
-  background: #ccc;
-  color: #ffffff;
-}
-
-.menu-container .menu .menu-item:last-child a {
-  border-right: none;
-}
 
 header {
   height: 65px;
@@ -113,6 +77,24 @@ header {
 
 .header-left {
   float: left;
+}
+  
+.header-right {
+  float: right;
+  magin-right: -25px;
+}
+  
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: black;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+  
+.header-right a:hover{
+  background-color: #e6ffff;
 }
 
 .lesson-wrapper {
@@ -211,22 +193,7 @@ footer {
 @media all and (max-width: 750px) {
   .top-wrapper h1 {
     font-size: 32px;
-  }
-  
-  .menu-container .menu {
-    display: none;
-    position: absolute;
-    width: 100%;
-  }
-  
-  .menu-container .menu .menu-item a {
-    border-bottom: 1px solid #ccc;
-    border-right: none;
-  }
-  
-  .menu-container .menu .menu-item:last-child a {
-    border-bottom: none;
-  }
+  }  
 }
 
 @media all and (max-width: 670px) {
