@@ -127,8 +127,9 @@ header {
 }
 
 .hyoshi,.hyoshi-text {
-  display: inline-block;
-  vertical-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0;
 }
 
 .lesson {
