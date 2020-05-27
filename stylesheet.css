@@ -116,19 +116,21 @@ header {
   background-color: #ffffe0;
 }
 
-.hyoshi {
-  height: 370px;
-  width: 263px;  
-}
-
 .sonota p {
   font-size: 20px;
   float: right;
 }
 
+.hyoshi {
+  height: 370px;
+  width: 263px;  
+}
+
+
 .lesson {
   float: left;
   width: 33%;
+  margin-top: 30px;
 }
 
 .lesson-icon {
@@ -183,7 +185,6 @@ footer {
 @media all and (max-width: 1000px) {
   .lesson {
     width: 80%;
-    margin-top: 30px;
     margin-bottom: 30px;
   }
   
