@@ -98,7 +98,7 @@ header {
 }
 
 .lesson-wrapper {
-  height: 580px;
+  height: 380px;
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
@@ -110,9 +110,15 @@ header {
   text-align: center;
 }
 
+.sonota {
+  height: 400px;
+  padding: 10px 15px; 
+  background-color: #ffffe0;
+}
+
 .hyoshi {
-  width:263px;
   height: 370px;
+  width: 263px;  
 }
 
 .sonota p {
@@ -219,6 +225,10 @@ footer {
   
   .top-wrapper p {
     font-size: 12px;
+  }
+  
+  .sonota {
+    width: 100%;
   }
   
   .hyoshi {
