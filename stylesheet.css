@@ -116,16 +116,20 @@ header {
   background-color: #ffffe0;
 }
 
-.sonota p {
-  font-size: 20px;
-  float: right;
-}
-
 .hyoshi {
   height: 370px;
   width: 263px;  
 }
 
+.hyoshi-text {
+  font-text: 20px;
+  color: black;
+}
+
+.hyoshi,.hyoshi-text {
+  display: inline-block;
+  vertical-align: center;
+}
 
 .lesson {
   float: left;
