@@ -116,13 +116,10 @@ header {
   width: 263px;
 }
 
-.sonota p h2 {
-  font-size: 35px;
-}
-
-.hyoshi-text {
-  text-align: center;
-  font-size: 30px;
+.sonota p {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0;
 }
 
 .lesson {
