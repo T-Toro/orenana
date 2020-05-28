@@ -116,12 +116,6 @@ header {
   width: 263px;
 }
 
-.sonota p {
-  display: table-cell;
-  vertical-align: middle;
-  margin: 0;
-}
-
 .sonota p h2 {
   font-size: 35px;
 }
