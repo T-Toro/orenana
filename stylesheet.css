@@ -121,7 +121,7 @@ header {
   color: black;
 }
 
-.hyoshi,.hyoshi-text {
+.sonota p {
   display: table-cell;
   vertical-align: middle;
   margin: 0;
