@@ -126,6 +126,11 @@ header {
   font-size: 35px;
 }
 
+.hyoshi-text {
+  text-align: center;
+  font-size: 30px;
+}
+
 .lesson {
   float: left;
   width: 33%;
