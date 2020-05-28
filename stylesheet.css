@@ -122,6 +122,11 @@ header {
   margin: 0;
 }
 
+.sonota p h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
 .lesson {
   float: left;
   width: 33%;
