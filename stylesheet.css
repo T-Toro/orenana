@@ -186,7 +186,6 @@ a {
 }
 
 .cp_cont {
-	height: 20px;
 	display: none;
 }
 
@@ -238,7 +237,6 @@ a {
 
 .cp_offcm01 #cp_toggle01 ~ label {
 	display: block;
-	padding: 0.5em;
 	cursor: pointer;
 	-webkit-transition: 0.5s transform;
 	        transition: 0.5s transform;
