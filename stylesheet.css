@@ -120,11 +120,11 @@ header {
   display: table-cell;
   vertical-align: middle;
   margin: 0;
+  text-align: center;
 }
 
 .sonota p h2 {
   font-size: 35px;
-  text-align: center;
 }
 
 .lesson {
