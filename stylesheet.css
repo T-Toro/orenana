@@ -108,7 +108,7 @@ header {
 .sonota {
 	display: flex;
 	color: black;
-	padding: 0 20%;
+	padding: 0 15%;
 }
 
 .sonota .hyoshi img {
@@ -322,10 +322,6 @@ a {
 .sonota .hyoshi img {
     width: 100%;
     height: auto;
-  }
-	
-.sonota .hyoshi-content h2 {
-    font-size: 16px;
   }
 
   .lesson {
