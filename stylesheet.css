@@ -118,14 +118,11 @@ header {
 }
 
 .sonota .hyoshi-content {
-  display: flex;
   flex: 1 1 0%;
 }
 
 .sonota .hyoshi-content {
   text-align: center;
-  margin-top: 110px;
-  margin-left: 25px;
 }
 
 .sonota .hyoshi-content h2 {
@@ -270,6 +267,11 @@ a {
     width: 80%;
     margin-bottom: 30px;
   }
+	
+.sonota .hyoshi-content {
+  margin-top: 110px;
+  margin-left: 25px;
+}
   
   .lesson-wrapper {
     height: 990px;
@@ -311,13 +313,8 @@ a {
     font-size: 12px;
   }
   
-  .sonota .hyoshi-content {
+  .sonota {
     display: block;
-  }
-	
-  .hyoshi-content {
-    margin-top: 0;
-    margin-left: 0;
   }
 
 .sonota .hyoshi img {
