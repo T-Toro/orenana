@@ -120,6 +120,18 @@ header {
   flex: 1 1 0%
 }
 
+.sonota .hyoshi-content {
+  font-align: center;
+}
+
+.sonota .hyoshi-content h2 {
+  font-size: 20px
+}
+
+.sonota .hyoshi-content p {
+  font-size: 15px
+}
+
 .lesson {
   float: left;
   width: 33%;
