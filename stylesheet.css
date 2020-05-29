@@ -311,12 +311,13 @@ a {
     font-size: 12px;
   }
   
-  .sonota .text-content {
+  .sonota .hyoshi-content {
     flex: block;
   }
 	
   .hyoshi-content {
-    margin: 0;
+    margin-top: 0;
+    margin-left: 0;
   }
 
 .sonota .hyoshi img {
