@@ -111,13 +111,6 @@ header {
   background-color: #ffffe0;
 }
 
-.sonata p {
-  display: table-cell;
-  vertical-align: middle;
-  margin: 0;
-  display: block;
-}
-
 .hyoshi {
   height: 370px;
   width: 263px;
