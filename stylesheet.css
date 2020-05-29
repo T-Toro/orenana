@@ -110,12 +110,9 @@ header {
 	color: black;
 }
 
-.sonota .hyoshi {
+.sonota .hyoshi img {
   height: 370px;
   width: 263px;
-}
-
-.sonota .hyoshi img {
   display: block;
 }
 
