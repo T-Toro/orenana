@@ -106,14 +106,21 @@ header {
 }
 
 .sonota {
-  height: 400px;
-  padding: 10px 15px; 
-  background-color: #ffffe0;
+	display: flex;
+	color: black;
 }
 
-.hyoshi {
+.sonota .hyoshi {
   height: 370px;
   width: 263px;
+}
+
+.sonota .hyoshi img {
+  display: block;
+}
+
+.sonota .text-content {
+  flex: 1 1 0%
 }
 
 .lesson {
