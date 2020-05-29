@@ -310,7 +310,8 @@ a {
   }
   
   .sonota .hyoshi-content {
-    flex: none;
+    display:flex;
+    flex-direction: column-reverse;
   }
 
   .hyoshi img {
