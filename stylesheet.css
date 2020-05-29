@@ -312,7 +312,7 @@ a {
   }
   
   .sonota .hyoshi-content {
-    flex: block;
+    display: block;
   }
 	
   .hyoshi-content {
