@@ -309,6 +309,10 @@ a {
     font-size: 12px;
   }
   
+  .sonota .hyoshi-content {
+    flex: none;
+  }
+
   .hyoshi img {
     width: 100%;
     height: auto;
