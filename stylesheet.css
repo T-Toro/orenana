@@ -120,6 +120,7 @@ header {
   display: table-cell;
   vertical-align: middle;
   margin: 0;
+  display: block;
 }
 
 .hyoshi-text {
