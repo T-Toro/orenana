@@ -118,13 +118,14 @@ header {
 }
 
 .sonota .text-content {
+  display: flex;
   flex: 1 1 0%;
 }
 
 .sonota .hyoshi-content {
   text-align: center;
   margin-top: 110px;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 .sonota .hyoshi-content h2 {
@@ -310,12 +311,15 @@ a {
     font-size: 12px;
   }
   
-  .sonota .hyoshi-content {
-    display:flex;
-    flex-direction: column;
+  .sonota .text-content {
+    flex: block;
+  }
+	
+  .hyoshi-content {
+    margin: 0;
   }
 
-  .hyoshi img {
+.sonota .hyoshi img {
     width: 100%;
     height: auto;
   }
