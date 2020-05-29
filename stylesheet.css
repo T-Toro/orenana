@@ -111,11 +111,6 @@ header {
   background-color: #ffffe0;
 }
 
-.hyoshi {
-  height: 370px;
-  width: 263px;
-}
-
 .sonata p {
   display: table-cell;
   vertical-align: middle;
@@ -123,8 +118,9 @@ header {
   display: block;
 }
 
-.hyoshi-text {
-  text-align: center;
+.hyoshi {
+  height: 370px;
+  width: 263px;
 }
 
 .lesson {
