@@ -108,6 +108,7 @@ header {
 .sonota {
 	display: flex;
 	color: black;
+	paddong: 0 20%;
 }
 
 .sonota .hyoshi img {
@@ -271,7 +272,7 @@ a {
   .lesson-wrapper {
     height: 990px;
   }
-  
+
   footer {
     text-align: center;
   }
@@ -279,7 +280,7 @@ a {
 
 @media all and (max-width: 750px) {
   .top-wrapper h1 {
-    font-size: 32px;
+    font-size: 28px;
   }  
 }
 
@@ -308,11 +309,7 @@ a {
     font-size: 12px;
   }
   
-  .sonota {
-    width: 100%;
-  }
-  
-  .hyoshi {
+  .hyoshi img {
     width: 100%;
     height: auto;
   }
