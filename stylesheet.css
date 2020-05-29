@@ -116,8 +116,10 @@ header {
   width: 263px;
 }
 
-.sonata {
-  display: inline-block
+.sonata p {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0;
 }
 
 .hyoshi-text {
