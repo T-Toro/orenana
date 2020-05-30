@@ -139,7 +139,6 @@ header {
   float: left;
   width: 33%;
   margin-top: 30px;
-  text-align: center;
 }
 
 .lesson-icon {
@@ -153,6 +152,7 @@ header {
   width: 100%;
   color: black;
   transform: rotate(45deg);
+  text-align: center;
   
 }
 
