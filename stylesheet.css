@@ -163,9 +163,12 @@ header {
   color: #6c848d;
 }
 
+fotter a {
+  margin-bottom: 10px;
+}
+
 footer img{
   width: 125px;
-  padding: 5% 5%;
 }
 
 footer p {
