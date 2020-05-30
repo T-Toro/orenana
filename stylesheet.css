@@ -159,15 +159,12 @@ header {
   display: inline-block;
   margin-top: 15px;
   font-size: 13px;
-  color: #b3aeb5;
-}
-
-footer a {
-  align: center;
+  color: #6c848d;
 }
 
 footer img{
   width: 125px;
+  padding: 5% 5%;
 }
 
 footer p {
@@ -178,6 +175,7 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+  text-align: center;
 }
 
 ol, ul {
