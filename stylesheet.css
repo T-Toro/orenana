@@ -105,12 +105,6 @@ header {
   text-align: center;
 }
 
-
-.lesson-icon p {
-  font-size: 25px;
-  transform: rotate(45deg);
-}
-
 .sonota {
 	display: flex;
 	color: black;
@@ -145,6 +139,7 @@ header {
   float: left;
   width: 33%;
   margin-top: 30px;
+  text-align: center;
 }
 
 .lesson-icon {
@@ -152,10 +147,13 @@ header {
 }
 
 .lesson-icon p {
+  font-size: 25px;
   position: absolute;
   top: 37%;
   width: 100%;
   color: black;
+  transform: rotate(45deg);
+  
 }
 
 .text-contents {
