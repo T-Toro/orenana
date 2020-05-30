@@ -106,9 +106,10 @@ header {
 }
 
 .sonota {
-	display: flex;
-	color: black;
-	padding: 5% 15%;
+  display: flex;
+  color: black;
+  padding: 5% 15%;
+  background-color: #e0ffff;
 }
 
 .sonota .hyoshi img {
