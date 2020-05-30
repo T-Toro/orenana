@@ -148,7 +148,7 @@ header {
 .lesson-icon p {
   font-size: 25px;
   position: absolute;
-  height: 100%;
+  top: 27%;
   width: 100%;
   color: black;
   transform: rotate(45deg);
