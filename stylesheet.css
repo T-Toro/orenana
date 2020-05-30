@@ -97,8 +97,7 @@ header {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-image: url(lesson-back.jpg);
-  background-size: cover;
+  background-color: white;
   text-align: center;
 }
 
@@ -150,7 +149,7 @@ header {
   font-size: 25px;
   letter-spacing: 5px;
   position: absolute;
-  top: 32%;
+  top: 25%;
   width: 100%;
   color: black;
 }
