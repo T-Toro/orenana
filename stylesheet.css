@@ -147,6 +147,7 @@ header {
 
 .lesson-icon p {
   font-size: 25px;
+  letter-spacing: 5px;
   position: absolute;
   top: 30%;
   width: 100%;
