@@ -74,8 +74,8 @@ header {
 .lesson-wrapper {
   height: 420px;
   padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
   background-color: #e0ffff;
   text-align: center;
 }
