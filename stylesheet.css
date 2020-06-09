@@ -72,11 +72,11 @@ header {
 }
 
 .lesson-wrapper {
-  height: 420px;
+  height: max-content;
   padding-bottom: 80px;
   padding-left: 3%;
   padding-right: 3%;
-  background-color: #e0ffff;
+  background-color: #ebf6f7;
   text-align: center;
 }
 
@@ -88,7 +88,7 @@ header {
   display: flex;
   color: black;
   padding: 5% 15%;
-  background-color: #e0ffff;
+  background-color: #ebf6f7;
 }
 
 .sonota .hyoshi img {
@@ -156,10 +156,10 @@ footer p {
 }
 
 footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
   text-align: center;
-  background-color: #a0d8ef;
+  background-color: #e0ffff;
 }
 
 ol, ul {
