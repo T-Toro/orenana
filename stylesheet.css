@@ -148,15 +148,17 @@ footer a {
 
 footer img{
   width: 125px;
+  margin-bottom: -5px;
 }
 
 footer p {
   color: #b3aeb5;
   font-size: 12px;
+  margin: 0;
 }
 
 footer {
-  padding-top: 15px;
+  padding-top: 20px;
   padding-bottom: 10px;
   text-align: center;
   background-color: #e0ffff;
