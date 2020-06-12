@@ -18,8 +18,8 @@ a {
 }
 
 .top-wrapper {
-  padding-top: 100px;
-  padding-bottom: 50px;
+  padding-top: 180px;
+  padding-bottom: 140px;
   background-image: url(school.jpg);
   background-size: cover;
   color: black;
@@ -296,7 +296,7 @@ a {
   
   .top-wrapper p {
     font-size: 12px;
-    line-height: 35px;
+    line-height: 40px;
   }
   
   .sonota {
@@ -321,8 +321,8 @@ a {
   }
 	
   .lesson-icon p {
-    font-size: 23px;
-    top: 18px;
+    font-size: 2opx;
+    top: 30px;
   }    
 
   .massage-wrapper .btn {
